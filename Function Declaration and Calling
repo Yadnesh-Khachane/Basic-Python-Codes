@@ -1,0 +1,6 @@
+# Basic Python Code for Declaring a Function and Calling
+
+def my_function():
+    print("Hello from a fucntion")
+
+my_function()
