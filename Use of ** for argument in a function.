@@ -1,0 +1,6 @@
+# Use of ** for argument in a fucntion.
+
+def my_function(**kid):
+    print("His last name is : ", kid["lname"])
+
+my_function(fname="S", lname="R")
