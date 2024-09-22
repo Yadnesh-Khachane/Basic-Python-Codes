@@ -1,4 +1,4 @@
-# Using single astrik sign for thr argument passed in a function to represent the unsurety of amount of input we need to give.
+# Using * for the argument passed in a function to represent the unsurety of amount of input we need to give.
 
 def my_function_2(*kids):
     print("The youngest child is ", kids[2])
