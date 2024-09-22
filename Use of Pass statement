@@ -1,0 +1,6 @@
+# Pass statement in order to have an empty func
+
+def my_function_2():
+    pass
+
+my_function_2()
