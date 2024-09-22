@@ -1,0 +1,8 @@
+# use of default values
+
+def my_fucntion_1(country = "Brazil"):
+    print("I am from : ", country)
+
+my_fucntion_1("India")
+my_fucntion_1("Cherry")
+my_fucntion_1()
