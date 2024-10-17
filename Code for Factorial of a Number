@@ -1,0 +1,9 @@
+# factorial of a number
+def factorial_number(num):
+    factorial_of_num = 1
+    while(num>0):
+        factorial_of_num = factorial_of_num * num
+        num = num - 1
+    print(factorial_of_num)
+
+num = int(input("Enter the number : "))
