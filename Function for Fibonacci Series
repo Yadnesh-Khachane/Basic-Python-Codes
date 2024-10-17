@@ -1,0 +1,13 @@
+# Fibonacci of a number
+def fibonacci_series(n):
+    a = 0
+    b = 1
+    print(a)
+    print(b)
+    c = a+b
+    print(c)
+    for i in range (0,n):
+        a = b
+        b = c
+        c = a+b
+        print(c)
